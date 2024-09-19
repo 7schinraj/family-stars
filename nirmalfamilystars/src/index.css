@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --loginFormBorderColor: rgb(46, 2, 243);
+  --loginBtnBgColor: rgb(49, 156, 255);
+  --loginHederColor: rgb(24, 231, 41);
+}
