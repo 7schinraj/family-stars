@@ -8,7 +8,7 @@ import Income from './Components/IncomeComp/Income.jsx';
 function App() {
   return (
     <div className="App">
-      <Income />
+   
     </div>
   );
 }
