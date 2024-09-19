@@ -14,7 +14,9 @@ const Dashboard = () => {
       <h1>Hello Dashboard <LuArrowBigLeftDash /></h1>
       <h1>Hello Dashboard <LuArrowBigLeftDash /></h1>
       <h1>Hello Dashboard <LuArrowBigLeftDash /></h1>
-
+      <form action="">
+        <input type="text" />
+      </form>
     </div>
   )
 }
