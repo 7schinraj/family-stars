@@ -7,7 +7,7 @@ import Login from './Components/LoginComp/Login.jsx';
 function App() {
   return (
     <div className="App">
-      <Login />
+      <Dashboard />
     </div>
   );
 }
