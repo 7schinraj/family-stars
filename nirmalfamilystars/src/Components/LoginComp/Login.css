@@ -49,10 +49,6 @@
     align-items: center;
     position: relative;
 }
-::placeholder{
-    font-size: 14px;
-    letter-spacing: 1px;
-}
 .login-form-container input{
     width: 100%;
     height: 45px;
