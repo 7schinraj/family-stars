@@ -20,4 +20,6 @@ code {
   --loginFormBorderColor: rgb(46, 2, 243);
   --loginBtnBgColor: rgb(49, 156, 255);
   --loginHederColor: rgb(24, 231, 41);
+  --tableHeaderColor: #7E7F7E;
+  --headerColor: #010100;
 }
