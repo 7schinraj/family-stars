@@ -27,7 +27,8 @@
 .form-container{
     width: 35%;
     height: 100%;
-    box-shadow: 0 0 0 1px var(--tableHeaderColor);
+    box-shadow: 0 0 0 10px var(--tableHeaderColor);
+    border: 2px solid var(--tableHeader);
     border-radius: 30px;
     padding: 20px 30px;
     display: flex;
