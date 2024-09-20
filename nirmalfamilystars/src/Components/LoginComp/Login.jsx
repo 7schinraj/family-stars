@@ -4,6 +4,7 @@ import LoginPageImg from "../../Assets/FamilyImg.png"
 import { BiSolidUserDetail } from "react-icons/bi";
 import { IoEye,IoEyeOffOutline } from "react-icons/io5";
 import Logo from "../../Assets/FamilystarsLogo.png"
+import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className='login-page-container'>
@@ -23,7 +24,10 @@ const Login = () => {
                         <IoEye className='icons'/>
                         <IoEyeOffOutline className='icons'/>
                     </div>
-                    <button className='login-btn'>Login</button>
+                    <Link to="/income">
+                        {/* {" "} */}
+                        <button className='login-btn'>Login</button>
+                    </Link>
                 </div>
             </form>
         </div>
