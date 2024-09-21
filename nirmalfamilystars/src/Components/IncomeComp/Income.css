@@ -54,8 +54,7 @@
     width: 100%;
     height: 100%;
     box-shadow: 0 0 0 1px var(--tableHeaderColor);
-    border-radius: 8px;
-    /* padding: 20px 30px; */
+    border-radius: 20px;
     padding: 20px 30px 50px 30px;
     display: flex;
     flex-direction: column;
@@ -124,20 +123,20 @@
 }
 .table-container{
     width: 88%;
-    /* box-shadow: 0 0 0 1px var(--tableHeaderColor); */
+    box-shadow: 0 0 0 1px var(--tableHeaderColor);
     border-radius: 20px;
     text-align: left;
     margin: 50px auto;
-    border: 1px solid var(--tableHeaderColor);
+    /* border: 1px solid var(--tableHeaderColor); */
     border-collapse: collapse;
     border-radius: 20px;
     
 }
 .table-container tr th{
-    padding: 20px 12px;
+    padding: 30px 0 30px 20px;
     border-bottom: 1px solid var(--tableHeaderColor);
     border-collapse: collapse;
-
+    color: var(--loginBtnBgColor);
 }
 .table-container tr td{
     padding: 20px 12px;
@@ -159,7 +158,7 @@
     max-width: 150px;
 }
 .btns{
-    width: 80px !important;
+    /* width: 80px !important; */
     display: flex;
     gap: 20px;
     font-size: 20px;
@@ -179,5 +178,5 @@
     color: var(--delIconColor);
 }
 .edit-icon{
-    color: var(--loginBtnBgColor);
+    color: gray;
 }

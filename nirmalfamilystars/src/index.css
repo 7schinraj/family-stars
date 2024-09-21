@@ -16,13 +16,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Quicksand", sans-serif; */
   font-family: var(--popinFont);
 }
 :root{
   --popinFont: "Poppins", sans-serif;
   --loginFormBorderColor: rgba(196, 143, 30, 0.658);
-  --loginBtnBgColor: rgba(43, 59, 129, 0.767);
+  --loginBtnBgColor: #1D36E6;
   --loginFontColor: #ffffff;
   --loginHederColor: rgb(0, 0, 0);
   --tableHeaderColor: #DBDBDB;
