@@ -5,21 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F8F8F8;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Quicksand", sans-serif; */
+  font-family: var(--popinFont);
 }
 :root{
-  --loginFormBorderColor: rgb(46, 2, 243);
-  --loginBtnBgColor: rgb(49, 156, 255);
-  --loginHederColor: rgb(24, 231, 41);
-  --tableHeaderColor: #666767;
+  --popinFont: "Poppins", sans-serif;
+  --loginFormBorderColor: rgba(196, 143, 30, 0.658);
+  --loginBtnBgColor: rgba(43, 59, 129, 0.767);
+  --loginFontColor: #ffffff;
+  --loginHederColor: rgb(0, 0, 0);
+  --tableHeaderColor: #DBDBDB;
   --headingsColor: #3F3F3F;
+  --editBtnColor: rgba(59, 113, 214, 0.911);
+  --tableHeadColor: rgb(134, 132, 132);
+  --delIconColor: red;
 }

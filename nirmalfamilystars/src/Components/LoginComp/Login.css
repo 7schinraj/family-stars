@@ -1,7 +1,7 @@
 .login-page-container{
     width: 100%;
     height: 100vh;
-    padding: 50px 80px;
+    padding: 10px 80px;
 }
 .nav-logo{
     text-align: start;
@@ -11,10 +11,11 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
 .logo{
-    text-align: start;
+    width: 18%;
+    height: 145px;
 }
 .login-left-img{
     width: 65%;
@@ -23,15 +24,15 @@
 }
 .login{
     color: var(--loginHederColor);
+    text-align: center;
 }
 .login-form-container{
     width: 30%;
     height: 70%;
     padding: 40px 25px;
     border-radius: 20px;
-    box-shadow: 0 0 0 6px var(--loginFormBorderColor);
+    box-shadow: 0 0 0 4px var(--loginFormBorderColor);
     font-family: var(--popinFont);
-    
 }
 .login-fields-container{
     width: 100%;
@@ -40,7 +41,6 @@
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-
 }
 .fields-div{
     width: 100%;
@@ -53,6 +53,7 @@
     width: 100%;
     height: 45px;
     border-radius: 10px;
+    border: 2px solid var(--tableHeaderColor);
     padding: 0 40px 0 10px;
     font-size: 16px;
     font-weight: 500;
@@ -63,8 +64,14 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    color: var(--loginFontColor);
     background-color: var(--loginBtnBgColor);
-    
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.login-btn:hover{
+    background-color: var(--loginFormBorderColor);
+    transition: 0.5s;
 }
 .icons{
     position: absolute;
