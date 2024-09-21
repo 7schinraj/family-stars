@@ -3,13 +3,13 @@ import './Login.css'
 import LoginPageImg from "../../Assets/FamilyImg.png"
 import { BiSolidUserDetail } from "react-icons/bi";
 import { IoEye,IoEyeOffOutline } from "react-icons/io5";
-import Logo from "../../Assets/FamilystarsLogo.png"
+import Logo from "../../Assets/familyStarLogo.png"
 import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <div className='login-page-container'>
-        {/* <img className='logo' src={Logo} alt="" /> */}
-        <h1 className='logo'>Logo</h1>
+        <img className='logo' src={Logo} alt="" />
+        {/* <h1 className='logo'>Logo</h1> */}
         <div className='home-container'>
             <img className='login-left-img' src={LoginPageImg} alt="" />
             <form className='login-form-container' action="">
@@ -24,7 +24,7 @@ const Login = () => {
                         <IoEye className='icons'/>
                         <IoEyeOffOutline className='icons'/>
                     </div>
-                    <Link to="/income">
+                    <Link to="/dashboard">
                         {/* {" "} */}
                         <button className='login-btn'>Login</button>
                     </Link>
