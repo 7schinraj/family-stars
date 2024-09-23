@@ -3,7 +3,7 @@ import "./Login.css";
 import LoginPageImg from "../../Assets/FamilyImg.png";
 import { BiSolidUserDetail } from "react-icons/bi";
 import { IoEyeOutline, IoEyeOffOutline } from "react-icons/io5";
-import Logo from "../../Assets/familyStarLogo.png";
+import Logo from "../../Assets/FSlogo.png";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
@@ -50,8 +50,11 @@ const Login = () => {
   }
   return (
     <div className="login-page-container">
-      <h1>Family Stars</h1>
-      <div className="home-container">
+      {/* <h1>Family Stars</h1> */}
+      <div className="logo">
+        <img src={Logo} alt="" />
+      </div>
+      <div className="home-container"> 
         <img className="login-left-img" src={LoginPageImg} alt="" />
         <form className="login-form-container" action="">
           <h1 className="login">Login</h1>

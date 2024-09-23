@@ -1,26 +1,25 @@
 .login-page-container{
     width: 100%;
     height: 100vh;
-    padding: 30px 80px;
+    padding: 10px 80px;
 }
 .nav-logo{
     text-align: start;
 }
 .home-container{
     width: 100%;
-    height: 90%;
+    height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
-
-.logo{
-    width: 18%;
-    height: 145px;
+.logo img{
+    height: 150px;
 }
 .login-left-img{
     width: 65%;
-    height: 70%;
+    height: 80%;
     border-radius: 20px;
 }
 .login{
@@ -29,11 +28,12 @@
 }
 .login-form-container{
     width: 30%;
-    height: 70%;
+    height: 80%;
     padding: 40px 25px;
     border-radius: 20px;
     box-shadow: 0 0 0 1px var(--loginHederColor);
     font-family: var(--popinFont);
+    background-color: var(--loginFontColor);
 }
 .login-fields-container{
     width: 100%;
@@ -78,4 +78,38 @@
 .icons{
     position: absolute;
     right: 5%;
+}
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:600px) {
+    .login-page-container h1{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+    .login-page-container{
+        padding: 45px 40px;
+        height: 100%;
+    }
+    .login-left-img {
+        display: none;
+    }
+    .login-form-container{
+        width: 100%;
+        height: 60%;
+        margin-top: 50px;
+    }
+    .home-container{ 
+        align-items: start;
+        margin-top: 50px; 
+        height: 100%;
+     } 
+    .login-fields-container{
+        justify-content: start;
+        margin-top: 50px;
+    }
 }

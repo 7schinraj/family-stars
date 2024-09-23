@@ -180,3 +180,21 @@
 .edit-icon{
     color: gray;
 }
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:600px) {
+    
+    .form-align-container{
+        padding: 20px 30px;
+    }
+    .form-container{
+        padding-top: 35px;
+    }
+    .back-btn{
+        height: 40px;
+        width: 93px;
+    } 
+}
